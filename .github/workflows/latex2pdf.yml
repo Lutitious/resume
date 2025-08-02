@@ -22,9 +22,9 @@ jobs:
           # The root LaTeX file to be compiled
           root_file: resume.tex
           # The working directory for the latex compiler to be invoked
-          working_directory: output
+          working_directory: 
           # LaTeX engine to be used
-          compiler: latexmk
+          compiler: 
           # Extra arguments to be passed to the latex compiler
           args: # optional, default is -pdf -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
           # Install extra packages by apt-get
